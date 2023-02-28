@@ -4,14 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="" />
+    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/staticValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,14 +54,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Luster_A_Neonarx龙运守/Desktop/编程/PYTHON/代码/大鱼吃小鱼&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.44942528&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HorrorPixelGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="images.TestInterface" />
+      <module name="HorrorPixelGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="HorrorPixelGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HorrorPixelGame" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="D:\360downloads\javafx-sdk-19.0.2.1\lib" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestInterface" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Maven.HorrorPixelGame" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestInterface" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,8 +153,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676471320062</updated>
-      <workItem from="1676471321628" duration="1000" />
+      <workItem from="1676471321628" duration="681000" />
+      <workItem from="1676621251414" duration="3055000" />
+      <workItem from="1676629834019" duration="2210000" />
+      <workItem from="1676686882380" duration="8132000" />
+      <workItem from="1676727831542" duration="1118000" />
+      <workItem from="1676733563501" duration="2709000" />
+      <workItem from="1677029664985" duration="184000" />
+      <workItem from="1677035937102" duration="581000" />
+      <workItem from="1677140415943" duration="369000" />
+      <workItem from="1677164737612" duration="130000" />
+      <workItem from="1677164909618" duration="4330000" />
+      <workItem from="1677169476534" duration="4427000" />
+      <workItem from="1677209605148" duration="819000" />
+      <workItem from="1677216934956" duration="78000" />
+      <workItem from="1677495173084" duration="31000" />
+      <workItem from="1677568029555" duration="1431000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
