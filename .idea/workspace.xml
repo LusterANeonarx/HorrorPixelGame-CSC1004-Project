@@ -1,27 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HorrorPixelGame:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staticValue.java" afterDir="false" />
+    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="Player walking module.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dialogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Middle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/airwall-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/airwall-vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/shell_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/images/walls_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_01.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_02.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_02.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_03.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_03.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_04.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_04.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_05.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_06.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_06.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_07.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_08.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_08.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_09.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_09.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staticValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -48,46 +88,104 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LmLTZjDxlHc87cXX7vagGzfB8q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;321&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Luster_A_Neonarx龙运守/Desktop/编程/PYTHON/代码/大鱼吃小鱼&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Luster_A_Neonarx龙运守/Desktop/编程/HorrorPixelGame/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.44942528&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\java\musics" />
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\java\Music" />
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\jdbc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\java\images" />
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\resources" />
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\test\java" />
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\java\utils" />
+      <recent name="C:\Users\Luster_A_Neonarx龙运守\Desktop\编程\HorrorPixelGame\src\main\resources\test1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.UI">
+    <configuration name="Dialogue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dialogue" />
       <module name="HorrorPixelGame" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="images.TestInterface" />
+    <configuration name="Game (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="HorrorPixelGame" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="HorrorPixelGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Middle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Middle" />
+      <module name="HorrorPixelGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sound" />
+      <module name="HorrorPixelGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UI" />
       <module name="HorrorPixelGame" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,16 +230,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TestInterface" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Maven.HorrorPixelGame" />
+      <item itemvalue="应用程序.Game" />
+      <item itemvalue="应用程序.Dialogue" />
+      <item itemvalue="应用程序.Sound" />
+      <item itemvalue="应用程序.UI" />
+      <item itemvalue="应用程序.Game (4)" />
+      <item itemvalue="应用程序.Middle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestInterface" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="应用程序.UI" />
+        <item itemvalue="应用程序.Middle" />
+        <item itemvalue="应用程序.Dialogue" />
+        <item itemvalue="应用程序.Sound" />
+        <item itemvalue="应用程序.Game (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +271,120 @@
       <workItem from="1677209605148" duration="819000" />
       <workItem from="1677216934956" duration="78000" />
       <workItem from="1677495173084" duration="31000" />
-      <workItem from="1677568029555" duration="1431000" />
+      <workItem from="1677568029555" duration="11353000" />
+      <workItem from="1677737260101" duration="4782000" />
+      <workItem from="1677761609049" duration="301000" />
+      <workItem from="1677761932578" duration="16849000" />
+      <workItem from="1677999638058" duration="290000" />
+      <workItem from="1678005199689" duration="1637000" />
+      <workItem from="1678026954199" duration="3106000" />
+      <workItem from="1678172946514" duration="16300000" />
+      <workItem from="1678191953710" duration="25000" />
+      <workItem from="1678196595694" duration="255000" />
+      <workItem from="1678420221955" duration="4797000" />
+      <workItem from="1678522363431" duration="8616000" />
+      <workItem from="1678776466761" duration="11380000" />
+      <workItem from="1678791936034" duration="4766000" />
+      <workItem from="1678939172893" duration="8004000" />
+      <workItem from="1678951013472" duration="2159000" />
+      <workItem from="1679043403725" duration="19525000" />
+      <workItem from="1679117686491" duration="5002000" />
+      <workItem from="1679140586371" duration="3669000" />
+      <workItem from="1679198081465" duration="1494000" />
+      <workItem from="1679378943361" duration="18343000" />
+      <workItem from="1679984577208" duration="20273000" />
+      <workItem from="1680064275110" duration="3198000" />
+      <workItem from="1680086869716" duration="6107000" />
+      <workItem from="1680144939722" duration="418000" />
+      <workItem from="1680162676906" duration="3370000" />
+      <workItem from="1680189600268" duration="1228000" />
+      <workItem from="1680230155220" duration="1826000" />
+      <workItem from="1680232453538" duration="1831000" />
+      <workItem from="1680589442178" duration="20497000" />
+      <workItem from="1680676121839" duration="2319000" />
+      <workItem from="1680752789036" duration="491000" />
+      <workItem from="1680764424509" duration="13187000" />
+      <workItem from="1681612812879" duration="361000" />
+      <workItem from="1681798659159" duration="10029000" />
+      <workItem from="1682066602323" duration="983000" />
+      <workItem from="1682129587687" duration="10713000" />
+      <workItem from="1682221838171" duration="7075000" />
+      <workItem from="1682252099232" duration="7341000" />
+      <workItem from="1682262666441" duration="1013000" />
     </task>
+    <task id="LOCAL-00001" summary="Player walking module.">
+      <created>1677569883956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677569883956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Player walking module." />
+    <option name="LAST_COMMIT_MESSAGE" value="Player walking module." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MusicPlayer.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HorrorPixelGame$UI.ic" NAME="UI 覆盖结果" MODIFIED="1680782929799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
