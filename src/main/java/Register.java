@@ -23,7 +23,7 @@ public class Register extends JPanel{
         JTextField pw = new JTextField();
         JLabel _age = new JLabel("your name:");
         JTextField age = new JTextField();
-        JLabel error = new JLabel("warning, confirm will not be validate with improper input.");
+        JLabel error = new JLabel("");
         JButton bt = new JButton("confirm");
         JButton exit = new JButton("return");
 
@@ -41,7 +41,7 @@ public class Register extends JPanel{
         age.setBounds(334,240,100,20);
         bt.setBounds(284,288,80,20);
         exit.setBounds(384,288,80,20);
-        error.setBounds(200,300,1000,100);
+        error.setBounds(270,270,1000,100);
         bt.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -50,7 +50,10 @@ public class Register extends JPanel{
                 String _age = age.getText();
                 //connect with the jdbc to show if it meets the register standard
                 connector.initConnection();
-                if (!connector.searchForId(_id)){//does the id exist
+                if (_id.equals("")||_pw.equals("")){
+                    error.setText("id or password unfulfilled");
+                }
+                else if (!connector.searchForId(_id)){//does the id exist
                     connector.add(_id,_pw,_age);
                     cardlayout.show(panel,"game");
 
@@ -59,12 +62,16 @@ public class Register extends JPanel{
                     middle.startPlay();
 
                 }
+                else{
+                    error.setText("id already exists");
+                }
                 connector.closeConnection();
             }
         });
         exit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                error.setText("");
                 cardlayout.show(panel,"home");
             }
         });

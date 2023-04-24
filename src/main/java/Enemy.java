@@ -6,6 +6,7 @@ import static java.lang.Math.abs;
 public class Enemy implements Runnable{
     //boolean on thread
     private boolean empty = false;
+    public boolean lock = true;
     //enemy position
     private int x;
     private int y;
@@ -55,7 +56,7 @@ public class Enemy implements Runnable{
     @Override
     public void run() {//thread
         while(true){
-            if(!empty) {//if it can move
+            if(!empty&&!lock) {//if it can move
                 int hx = hero.getX() + 36;
                 int hy = hero.getY() + hero.getShow().getHeight();
 
@@ -130,10 +131,18 @@ public class Enemy implements Runnable{
     public int getX() {
         return x;
     }
+    public void setX(int x){
+        this.x = x;
+    }
 
     public int getY() {
         return y;
     }
+
+    public void setY(int y){
+        this.y = y;
+    }
+
     public BufferedImage getShow() {
         return show;
     }

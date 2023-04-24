@@ -78,13 +78,13 @@ public class jdbc {
         return false;
     }
 
-        public void add(String id,String pw,String age){
+        public void add(String id,String pw,String name){
             try{
                 String sql ="insert into form values(?,?,?)";
                 PreparedStatement ps = con.prepareStatement(sql);
                 ps.setString(1,id);
                 ps.setString(2,pw);
-                ps.setString(3,age);
+                ps.setString(3,name);
                 ps.executeUpdate();
             } catch (SQLException e) {
                 throw new RuntimeException(e);

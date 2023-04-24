@@ -2,11 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Middle extends JPanel {
+    boolean menuclick = false;
     private JFrame f = new JFrame();
     private JLayeredPane jLayeredPane = new JLayeredPane();
     private Game game = new Game();
-    private Menu menu = new Menu(game,f);
+    private Menu menu = new Menu(f,this);
     private Dialogue dialogue = new Dialogue();
+
 
 
     Middle(JFrame f){
@@ -18,7 +20,7 @@ public class Middle extends JPanel {
 
     public void startPlay(){
         //initialize game
-        game = new Game(f,menu,dialogue);
+        game = new Game(f,menu,dialogue,this);
 
         //menu, game and dialogue are on the same layered pane
         jLayeredPane.setBounds(0,0,768,576);

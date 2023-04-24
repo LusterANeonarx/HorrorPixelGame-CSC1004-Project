@@ -31,12 +31,10 @@ public class Hero implements Runnable{
 
 
 
-
-
     boolean key1 = false;
     boolean behindyouflag = false;
 
-
+    jdbc connector = new jdbc();
     public Hero(){
 
     }
@@ -259,6 +257,7 @@ public class Hero implements Runnable{
                 }
             }
 
+
             try {
                 Thread.sleep(50);
                 //condition
@@ -282,8 +281,8 @@ public class Hero implements Runnable{
     public int getY() {
         return y;
     }
-    public void setY(int x){
-        this.x = x;
+    public void setY(int y){
+        this.y = y;
     }
 
     public BufferedImage getShow() {
@@ -308,4 +307,8 @@ public class Hero implements Runnable{
     public boolean getMessage(){
         return message;
     }
+    public void setStatus(String status){
+        this.status = status;
+    }
+
 }

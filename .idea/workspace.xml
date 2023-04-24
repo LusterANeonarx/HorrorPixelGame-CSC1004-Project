@@ -9,57 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="Player walking module.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Background.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dialogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Middle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/$MonsterB_12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/airwall-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/airwall-vertical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/shell_02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/images/walls_02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="Final try.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_01.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_02.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_02.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_03.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_03.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_04.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_04.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_05.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_06.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_06.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_07.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_08.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_08.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_09.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_09.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/images/$Dr-Frankenstien_12.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staticValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Middle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Middle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +269,8 @@
       <workItem from="1682129587687" duration="10713000" />
       <workItem from="1682221838171" duration="7075000" />
       <workItem from="1682252099232" duration="7341000" />
-      <workItem from="1682262666441" duration="1013000" />
+      <workItem from="1682262666441" duration="1590000" />
+      <workItem from="1682318816735" duration="7717000" />
     </task>
     <task id="LOCAL-00001" summary="Player walking module.">
       <created>1677569883956</created>
@@ -319,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677569883956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final try.">
+      <created>1682263956923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682263956923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +295,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Player walking module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Player walking module." />
+    <MESSAGE value="Final try." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final try." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

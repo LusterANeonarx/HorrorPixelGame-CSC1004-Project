@@ -23,7 +23,7 @@ public class Login extends JPanel {
         JTextField pw = new JTextField();
         JButton bt = new JButton("confirm");
         JButton exit = new JButton("return");
-        JLabel error = new JLabel("warning, confirm will not be validate with improper input.");
+        JLabel error = new JLabel("");
 
         _id.setForeground(Color.WHITE);
         _pw.setForeground(Color.WHITE);
@@ -36,7 +36,7 @@ public class Login extends JPanel {
         pw.setBounds(334,200,100,20);
         bt.setBounds(284,288,80,20);
         exit.setBounds(384,288,80,20);
-        error.setBounds(200,300,1000,100);
+        error.setBounds(270,270,1000,100);
 
         bt.addActionListener(new ActionListener() {
             @Override
@@ -44,7 +44,10 @@ public class Login extends JPanel {
                 String _id = id.getText();
                 String _pw = pw.getText();
                 connector.initConnection();
-                if (connector.searchForIdPw(_id,_pw)){//does the id exist
+                if(_id.equals("")||_pw.equals("")){
+                    error.setText("id or password unfulfilled");
+                }
+                else if (connector.searchForIdPw(_id,_pw)){//does the id exist
                     cardlayout.show(panel,"game");
 //                    setFocusable(false);
 //                    game.setFocusable(true);
@@ -52,7 +55,9 @@ public class Login extends JPanel {
                     middle.requestFocus();
                     middle.startPlay();
 
-
+                }
+                else{
+                    error.setText("id or password incorrect");
                 }
                 connector.closeConnection();
 
@@ -63,6 +68,7 @@ public class Login extends JPanel {
         exit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                error.setText("");
                 cardlayout.show(panel,"home");
             }
         });
