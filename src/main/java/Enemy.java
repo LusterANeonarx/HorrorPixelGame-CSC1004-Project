@@ -56,7 +56,7 @@ public class Enemy implements Runnable{
     @Override
     public void run() {//thread
         while(true){
-            if(!empty&&!lock) {//if it can move
+            if(!empty&&!lock) {//if it can move, lock is the first insurance for it not to move
                 int hx = hero.getX() + 36;
                 int hy = hero.getY() + hero.getShow().getHeight();
 

@@ -4,13 +4,13 @@ import java.io.FileNotFoundException;
 
 
 //just run this!
-public class UI extends JFrame{
+public class Main extends JFrame{
 
     public static void main(String[] args) {
-        UI ui = new UI();
+        Main main = new Main();
 
     }
-    public UI(){
+    public Main(){
 
 
         //get music

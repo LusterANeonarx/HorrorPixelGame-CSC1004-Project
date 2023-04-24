@@ -9,7 +9,7 @@ public class Menu extends JPanel {
 
         JLabel pause = new JLabel("PAUSE");
 
-        // below are the functions that hasn't done.
+
         JButton restart = new JButton("restart");
 //        JButton home = new JButton("home");
 
@@ -28,6 +28,7 @@ public class Menu extends JPanel {
 
             }
         });
+        // below are the function that hasn't done.
 //        home.addActionListener(new ActionListener() {
 //            @Override
 //            public void actionPerformed(ActionEvent e) {

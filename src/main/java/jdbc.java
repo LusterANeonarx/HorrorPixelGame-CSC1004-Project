@@ -6,6 +6,8 @@ import java.sql.*;
 //5.check the account password for login
 //6.check previous account id for register √
 
+//this is java database connector, nothing to say
+
 public class jdbc {
     public jdbc(){}
 

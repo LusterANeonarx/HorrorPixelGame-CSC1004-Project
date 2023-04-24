@@ -9,15 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="Final try.">
+    <list default="true" id="4fc5aa50-1571-4586-bdb7-a040ee53e46c" name="Changes" comment="Final try. Really.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Background.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Middle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Middle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.UI">
+  <component name="RunManager" selected="应用程序.Main">
     <configuration name="Dialogue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dialogue" />
       <module name="HorrorPixelGame" />
@@ -129,6 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HorrorPixelGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Middle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Middle" />
       <module name="HorrorPixelGame" />
@@ -138,13 +144,6 @@
     </configuration>
     <configuration name="Sound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sound" />
-      <module name="HorrorPixelGame" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UI" />
       <module name="HorrorPixelGame" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,16 +189,16 @@
     </configuration>
     <list>
       <item itemvalue="Maven.HorrorPixelGame" />
+      <item itemvalue="应用程序.Main" />
       <item itemvalue="应用程序.Game" />
       <item itemvalue="应用程序.Dialogue" />
       <item itemvalue="应用程序.Sound" />
-      <item itemvalue="应用程序.UI" />
       <item itemvalue="应用程序.Game (4)" />
       <item itemvalue="应用程序.Middle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.UI" />
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.Middle" />
         <item itemvalue="应用程序.Dialogue" />
         <item itemvalue="应用程序.Sound" />
@@ -270,7 +269,7 @@
       <workItem from="1682221838171" duration="7075000" />
       <workItem from="1682252099232" duration="7341000" />
       <workItem from="1682262666441" duration="1590000" />
-      <workItem from="1682318816735" duration="7717000" />
+      <workItem from="1682318816735" duration="8379000" />
     </task>
     <task id="LOCAL-00001" summary="Player walking module.">
       <created>1677569883956</created>
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682263956923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final try. Really.">
+      <created>1682329774223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682329774223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +302,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Player walking module." />
     <MESSAGE value="Final try." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final try." />
+    <MESSAGE value="Final try. Really." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final try. Really." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

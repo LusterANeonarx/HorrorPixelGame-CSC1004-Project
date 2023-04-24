@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class MusicPlayer implements Runnable{
+public class MusicPlayer implements Runnable{//nothing to say, just play the music
     File soundFile;
     Thread thread;
     boolean circulate;

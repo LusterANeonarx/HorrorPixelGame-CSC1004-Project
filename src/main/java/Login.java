@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class Login extends JPanel {
+public class Login extends JPanel {// just login
     jdbc connector = new jdbc();
     public Login(JFrame f, JPanel panel, CardLayout cardlayout, Middle middle){
         setLayout(null);
@@ -16,6 +16,7 @@ public class Login extends JPanel {
         String path = System.getProperty("user.dir")+"/src/main/java/images/";
         Icon imgIcon = new ImageIcon(path+"cover.gif");
 
+        //add buttons and texts
         JLabel gif = new JLabel(imgIcon);
         JLabel _id = new JLabel("your id:");
         JLabel _pw = new JLabel("your password:");

@@ -37,7 +37,7 @@ public class Background {
             boxList.add(new Box(400, 278, 2, this, "front_door", game));// front door is not open
 
         }
-        else if(scene==2){
+        else if(scene==2){// other scenes are all the same
             bgImage = StaticValues.bg2;
             for(int i=0;i<6;i++){
                 obstacleList.add(new Obstacle(100, 180+i*48, 1, this));
